@@ -1,7 +1,7 @@
 # RickMorty
 ## RickMorty catalog app implementing current Android Architecture MVVM Pattern 
 
-In this app I'm using RxJava instead of Courotine. It a. I'm also using NetworkBoundResource from Github-App-Sample and tweak it a little bit to adapt with RxJava and make it more "kotlin" way. Feel free to use it and hit the start button if you like.
+In this app I used RxJava instead of Courotine. I also used NetworkBoundResource from Github-App-Sample and tweak it a bit to adapt with RxJava and make it more "kotlin" way. Feel free to use it and hit the start button if you like.
 
 Dependencies Used:
 * Hilt
