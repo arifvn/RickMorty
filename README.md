@@ -3,7 +3,7 @@
 
 In this app I used RxJava instead of Courotine. I also used NetworkBoundResource from Github-App-Sample and tweak it a bit to adapt with RxJava and make it more "kotlin" way. Feel free to use it and hit the start button if you like.
 
-![demo.gif]
+![](demo.gif)
 
 Dependencies Used:
 * Hilt
