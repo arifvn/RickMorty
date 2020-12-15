@@ -1,9 +1,9 @@
 package com.squareit.rickmorty.data.repository
 
 import com.squareit.rickmorty.data.datasource.common.Resource
+import com.squareit.rickmorty.data.datasource.common.networkBoundResource
 import com.squareit.rickmorty.data.datasource.local.CharacterDao
 import com.squareit.rickmorty.data.datasource.remote.CharacterService
-import com.squareit.rickmorty.data.datasource.remote.networkBoundResource
 import com.squareit.rickmorty.data.entities.Character
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.disposables.CompositeDisposable

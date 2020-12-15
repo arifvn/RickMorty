@@ -1,4 +1,4 @@
-package com.squareit.rickmorty.data.datasource.remote
+package com.squareit.rickmorty.data.datasource.common
 
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Flowable

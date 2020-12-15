@@ -2,6 +2,7 @@ package com.squareit.rickmorty.ui.favorite
 
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.findNavController
@@ -29,7 +30,7 @@ class FavoriteFragment : Fragment(R.layout.fragment_favorite) {
     }
 
     private fun setTitleBar() {
-        activity?.title = "Favorite Characters"
+        (requireActivity() as AppCompatActivity).supportActionBar?.title = "Favorite Characters"
     }
 
     private fun initRecyclerView() {

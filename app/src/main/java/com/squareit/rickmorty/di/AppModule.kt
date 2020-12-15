@@ -3,11 +3,11 @@ package com.squareit.rickmorty.di
 import android.content.Context
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
+import com.squareit.rickmorty.data.datasource.common.ApiConstant
 import com.squareit.rickmorty.data.datasource.local.CharacterDB
 import com.squareit.rickmorty.data.datasource.local.CharacterDao
 import com.squareit.rickmorty.data.datasource.remote.CharacterService
 import com.squareit.rickmorty.data.repository.CharacterRepository
-import com.squareit.rickmorty.data.datasource.common.ApiConstant
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

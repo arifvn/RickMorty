@@ -2,6 +2,7 @@ package com.squareit.rickmorty.ui.home
 
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.findNavController
@@ -31,7 +32,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
     }
 
     private fun setTitleBar() {
-        activity?.title = "Characters"
+        (requireActivity() as AppCompatActivity).supportActionBar?.title = "Characters"
     }
 
     private fun onSwipeRefreshAction() {
